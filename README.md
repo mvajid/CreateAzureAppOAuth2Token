@@ -1,5 +1,5 @@
 # CreateAzureAppOAuth2Token
-The script was created so that you can easily copy values to Postman and generate an access token. The script should be seen as a sample on how to create the Azure App (not the access token itself). The script was developed primarily to use for API authentication with a Microsoft Dynamics 365 Business Central tenant.
+The script was created so that you can easily copy values to Postman and generate an access token. The script should be seen as a sample on how to create the Azure App (not the access token itself). The script was developed primarily to use for API authentication with a Microsoft Dynamics 365 Business Central tenant. The script is provided AS-IS.
 
 USAGE:
 1. Download both OAuth2TokenRequest.ps1 and Helpers.ps1 in the same directory.
