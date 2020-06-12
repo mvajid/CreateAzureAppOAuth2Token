@@ -9,8 +9,8 @@ Import-Module .\Helpers.ps1
 $tenantid = Read-Host -Prompt "Enter Tenant ID"
 $environmentname = Read-Host -Prompt "Enter Environment Name"
 
-#Install AzureAD
-#Install-Module AzureAD
+#Check AzureAD Module and Install if not present
+if(!(Get-Module AzureAD)) { Install-Module -Name AzureAD }
 
 #Connect to AzureAD Tenant
 Connect-AzureAD -TenantId $tenantid
